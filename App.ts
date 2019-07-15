@@ -9,6 +9,7 @@ export class App {
 
     public express: express.Application;
     public mongoUrl: string = process.env.MONGO_URL;
+    
     public httpServer: http.Server;
 
     constructor() {
